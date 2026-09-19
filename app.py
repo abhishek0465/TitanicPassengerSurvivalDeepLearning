@@ -5,7 +5,7 @@ import pandas as pd
 
 st.title("Passenger Survival Chance In Titanic Journey")
 
-pclass = st.slider('Enetr The Passenger Class',1,3)
+pclass = st.slider('Enter The Passenger Class',1,3)
 sex = st.selectbox('Gender',['male','female'])
 sibsp = st.slider('Enter Passenegr total nos. of Sibling and Spoce',1,8)
 parch = st.slider('Enter Passenegr total nos. of Parent and Children',1,6)
